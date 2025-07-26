@@ -29,7 +29,7 @@ function App() {
   };
   return (
     <>
-      <h1>StopWatch</h1>
+      <h1>Stopwatch</h1>
       <p>Time: {getTime(seconds)}</p>
       <button onClick={() => setStart((prev) => !prev)}>
         {start ? "Stop" : "Start"}
